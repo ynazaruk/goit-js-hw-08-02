@@ -6,6 +6,12 @@ img {
   display: block;
   width: 100%;
   height: 220px;
+  cursor: pointer;
+  transition: transform 400ms ease;
+}
+
+img:hover {
+  transform: scale(1.05);
 }
 
 .gallery {
